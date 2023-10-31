@@ -9,11 +9,13 @@ if number >= 0:
     elif number2 == 0:
         print("Last digit of", number, "is", number2, "and is 0")
     else:
-        print("Last digit of", number, "is", number2, "and is less than 6 and not 0")
+        print("Last digit of", number, "is",
+              number2, "and is less than 6 and not 0")
 if number < 0:
     if number2 == 0:
         print("Last digit of", number, "is", number2, "and is 0")
     else:
         print(
-            "Last digit of", number, "is", number2 - 10, "and is less than 6 and not 0"
+            "Last digit of", number, "is",
+            number2 - 10, "and is less than 6 and not 0"
         )
